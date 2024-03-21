@@ -109,9 +109,7 @@ function playerGame(playerMove) {
     updateScoreElement();
     document.querySelector('.js-result').innerHTML = result;
 
-    document.querySelector('.js-moves').innerHTML = `You
-            ${playerMove} 
-            ${computerMove}Computer`;
+    document.querySelector('.js-moves').innerHTML = `You ${playerMove}  ${computerMove} Computer`;
 }
 function updateScoreElement() {
     document.querySelector('.js-score')
