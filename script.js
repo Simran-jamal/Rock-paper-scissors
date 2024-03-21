@@ -110,7 +110,7 @@ function playerGame(playerMove) {
     document.querySelector('.js-result').innerHTML = result;
 
     document.querySelector('.js-moves').innerHTML = `You
-            {playerMove} 
+            ${playerMove} 
             ${computerMove}Computer`;
 }
 function updateScoreElement() {
